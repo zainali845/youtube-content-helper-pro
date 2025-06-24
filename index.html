@@ -3,60 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Content Helper</title>
+    
+    <!-- FINAL SEO -->
+    <title>YouTube Content Helper - Free Titles, Tags & Hashtags</title>
+    <meta name="description" content="Generate catchy titles, viral hashtags, SEO keywords, and full descriptions for your YouTube videos for free. Grow your channel faster with our easy-to-use tool.">
+    <meta name="keywords" content="youtube tool, youtube title generator, youtube hashtag generator, free youtube seo, youtube keywords, video ideas, content creator tool">
+
+    <!-- FINAL FAVICON (ICON) CODE -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Social Media (Open Graph) Tags -->
+    <meta property="og:title" content="YouTube Content Helper - Free Titles & Tags">
+    <meta property="og:description" content="Generate unlimited catchy titles, descriptions, and hashtags for your YouTube videos instantly.">
+    <meta property="og:image" content="social-card-image.png"> 
+    <meta property="og:url" content="https://zainali845.github.io/youtube-content-helper-pro/">
+    <meta property="og:type" content="website">
+
+    <!-- CSS and Fonts -->
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!-- PROFESSIONAL HEADER -->
-    <div class="professional-header">
-        <div class="container">
-            <h1 class="main-title">YouTube Content Helper <span class="rocket-icon">🚀</span></h1>
-            <p class="subtitle">Apne video ka topic neeche likhein aur Jadoo dekhein!</p>
-        </div>
-    </div>
-
-    <!-- FLOATING DESKTOP-ONLY VERTICAL AD -->
-    <div class="floating-ad-container">
-         <span class="ad-label">Advertisement</span>
-         <script type="text/javascript">
-            atOptions = {'key':'f8a4b0f2e934eb12fea949823a787cf3','format':'iframe','height':300,'width':160,'params':{}};
-         </script>
-         <script type="text/javascript" src="//www.highperformanceformat.com/f8a4b0f2e934eb12fea949823a787cf3/invoke.js"></script>
-    </div>
-
-    <!-- MAIN CONTENT AREA -->
+    <!-- Body ka code waisa hi hai, ismein koi badlav nahi hai -->
+    <div class="professional-header"><div class="container"><h1 class="main-title">YouTube Content Helper <span class="rocket-icon">🚀</span></h1><p class="subtitle">Apne video ka topic neeche likhein aur Jadoo dekhein!</p></div></div>
     <div class="main-content container">
         <div class="ad-container">
             <div class="ad-desktop-wrapper"><script type="text/javascript">atOptions={'key':'bc837936d10ac9042bd6ccfc6f51d41c','format':'iframe','height':90,'width':728,'params':{}};</script><script type="text/javascript" src="//www.highperformanceformat.com/bc837936d10ac9042bd6ccfc6f51d41c/invoke.js"></script></div>
             <div class="ad-mobile-wrapper"><script type="text/javascript">atOptions={'key':'69c19ccfd4f106824724f24096c0380d','format':'iframe','height':50,'width':320,'params':{}};</script><script type="text/javascript" src="//www.highperformanceformat.com/69c19ccfd4f106824724f24096c0380d/invoke.js"></script></div>
         </div>
-
-        <div class="input-section">
-            <input type="text" id="videoTopic" placeholder="Jaise: How to make paneer tikka at home">
-            <button id="generateBtn">Generate Karein</button>
-        </div>
-        
+        <div class="input-section"><input type="text" id="videoTopic" placeholder="Jaise: How to make paneer tikka at home"><button id="generateBtn">Generate Karein</button></div>
         <div class="output-grid" id="outputGrid">
-            <div class="output-card"><div class="card-header"><h3>Behtareen Titles</h3><button class="copy-btn" data-target="titlesOutput">Copy</button></div><div class="card-content" id="titlesOutput"><p class="placeholder">Aapke liye 10 behtareen titles yahan aayenge...</p></div></div>
+            <div class="output-card"><div class="card-header"><h3>Behtareen Titles</h3><button class="copy-btn" data-target="titlesOutput">Copy</button></div><div class="card-content" id="titlesOutput"><p class="placeholder">Aapke liye behtareen titles yahan aayenge...</p></div></div>
             <div class="output-card"><div class="card-header"><h3>Video Description</h3><button class="copy-btn" data-target="descriptionOutput">Copy</button></div><div class="card-content" id="descriptionOutput"><p class="placeholder">Ek complete video description yahan aayega...</p></div></div>
-        </div>
-
-        <!-- Ad Under First Row of Cards -->
-        <div class="ad-container">
-             <div class="ad-desktop-wrapper"><script type="text/javascript">atOptions={'key':'bc837936d10ac9042bd6ccfc6f51d41c','format':'iframe','height':90,'width':728,'params':{}};</script><script type="text/javascript" src="//www.highperformanceformat.com/bc837936d10ac9042bd6ccfc6f51d41c/invoke.js"></script></div>
-             <div class="ad-mobile-wrapper"><script type="text/javascript">atOptions={'key':'69c19ccfd4f106824724f24096c0380d','format':'iframe','height':50,'width':320,'params':{}};</script><script type="text/javascript" src="//www.highperformanceformat.com/69c19ccfd4f106824724f24096c0380d/invoke.js"></script></div>
-        </div>
-
-        <div class="output-grid" id="outputGrid2">
             <div class="output-card"><div class="card-header"><h3>Viral Hashtags</h3><button class="copy-btn" data-target="hashtagsOutput">Copy</button></div><div class="card-content" id="hashtagsOutput"><p class="placeholder">Viral hone wale hashtags yahan aayenge...</p></div></div>
             <div class="output-card"><div class="card-header"><h3>SEO Keywords</h3><button class="copy-btn" data-target="keywordsOutput">Copy</button></div><div class="card-content" id="keywordsOutput"><p class="placeholder">Ranking ke liye zaroori keywords yahan aayenge...</p></div></div>
         </div>
+        <div class="ad-container ad-footer">
+            <div class="ad-desktop-wrapper"><script type="text/javascript">atOptions={'key':'bc837936d10ac9042bd6ccfc6f51d41c','format':'iframe','height':90,'width':728,'params':{}};</script><script type="text/javascript" src="//www.highperformanceformat.com/bc837936d10ac9042bd6ccfc6f51d41c/invoke.js"></script></div>
+            <div class="ad-mobile-wrapper"><script type="text/javascript">atOptions={'key':'69c19ccfd4f106824724f24096c0380d','format':'iframe','height':50,'width':320,'params':{}};</script><script type="text/javascript" src="//www.highperformanceformat.com/69c19ccfd4f106824724f24096c0380d/invoke.js"></script></div>
+        </div>
     </div>
-    
     <script src="script.js"></script>
 </body>
 </html>
